@@ -8,14 +8,6 @@ const navLinks = [
   { label: "Contact", href: "#contact" },
 ];
 
-const tickerItems = [
-  "Concept positioning",
-  "Menu costing",
-  "Supplier logic",
-  "Launch readiness",
-  "Branch performance",
-];
-
 const conceptMetrics = [
   {
     number: "01",
@@ -219,23 +211,6 @@ export default function App() {
               </a>
             </div>
           </div>
-
-          <aside className="hero-panel reveal" aria-label="Consulting focus">
-            <span>Operator view</span>
-            <strong>Concept, menu, margin, flow</strong>
-            <div className="signal-bars" aria-hidden="true">
-              <i />
-              <i />
-              <i />
-              <i />
-            </div>
-          </aside>
-        </section>
-
-        <section className="ticker" aria-label="F&B consulting focus areas">
-          {tickerItems.map((item) => (
-            <span key={item}>{item}</span>
-          ))}
         </section>
 
         <section className="section intro-grid" id="concept">
